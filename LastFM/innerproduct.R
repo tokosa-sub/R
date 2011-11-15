@@ -14,7 +14,7 @@ innerproduct<-function (x, y = NULL)
         return(as.matrix(co))
     }
     else if (is.vector(x) && is.vector(y)) {
-        return(innerproduct(x, y))
+        return(crossprod(x, y))
     }
     else {
         stop("argument mismatch. Either one matrix or two vectors needed as input.")
