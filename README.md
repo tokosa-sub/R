@@ -6,3 +6,5 @@
 ## R packages lsa  
 * cosine 関数  
 
+## 
+
